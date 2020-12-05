@@ -19,7 +19,7 @@ public class LanguageManager {
         
         public static var english: Language {
             let language = Language()
-            language.code = "eng"
+            language.code = "en"
             language.name = "English"
             return language
         }
@@ -41,9 +41,7 @@ public class LanguageManager {
                 }
             }
         }
-        
-        // if none of the above works. selected language will stay tr.
-        
+                
         populateLangFromCache(for: selectedLanguage)
     }
     

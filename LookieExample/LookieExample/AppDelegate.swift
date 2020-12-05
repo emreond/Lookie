@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Lookie Example
+//  LookieExample
 //
 //  Created by Emre Onder on 5.12.2020.
 //
