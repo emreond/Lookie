@@ -3,10 +3,6 @@ Swift terminal project that scan your localization file and generate domain base
 
 [![Swift Version][swift-image]][swift-url]
 
-# Lookie
-
-**Localization code generator** written for Swift in Swift.
-
 ## What It does:
 
 It helps you to use your localization file in a much easier, safer and scalable way. 
