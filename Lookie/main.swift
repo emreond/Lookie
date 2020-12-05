@@ -8,6 +8,7 @@
 import Foundation
 
 var outputDirectory = ""
+let domainsToFind = ["domain1", "domain2"]
 main()
 
 func main() {
@@ -26,7 +27,6 @@ func main() {
 }
 
 private func writeSwiftFile(keysAndValues: Dictionary<String, String>) {
-    let domainsToFind = ["domain1", "domain2"]
 
     var domainValues = Dictionary<String, Dictionary<String,String>>()
 
