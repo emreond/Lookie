@@ -14,7 +14,7 @@ It helps you to use your localization file in a much easier, safer and scalable 
 
 ## How Does It Work:
 
-It generate off the hook classes/codes from your language file everytime you build the project. It allows you to separate your keys into domains. 
+It generate off the hook classes/codes from your language file when you build the project. It allows you to separate your keys into domains (separate files). 
 
 **How To Use It**
 
@@ -32,7 +32,7 @@ Get product file called Laurine and paste it to your project folder
 
 **Step 3**
 
-Add below build phase above Compile Sources step. 
+Add below build phase above Compile Sources step. This will create or change localization auto-generated string files If there is any change in your language file.
 
 ```
 echo "STRING GENERATION BUILD PHASE STARTED"
