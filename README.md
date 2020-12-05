@@ -50,6 +50,7 @@ echo "STRING GENERATION BUILD PHASE FINISHED"
 **Step 4**
 
 Add example `LanguageManager.swift` file to your project.
+
 **Step 5**
 
 Use it like `StringResources.myKey`
