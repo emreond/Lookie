@@ -17,6 +17,7 @@ It helps you to use your localization file in a much easier, safer and scalable 
 It generate off the hook classes/codes from your language file everytime you build the project. It allows you to separate your keys into domains. 
 
 **How To Use It**
+
 **Step 1**
 
 Open Lookie.xcodeproj and add necessary domains to `domainsToFind` array depenging on your localization file.
@@ -24,9 +25,11 @@ Open Lookie.xcodeproj and add necessary domains to `domainsToFind` array depengi
 For example; `dashboard_my_title` generates `DashboardStringResources.swift` file. Every key you add starting with `dashboard` will be written inside `DashboardStringResources.swift` file. If you can't find any related domain it will be written in `StringResources.swift`
 
 **Step 2**
+
 Get product file called Laurine and paste it to your project folder
 
 **Step 3**
+
 Add below build phase above Compile Sources step. 
 
 ```
@@ -45,8 +48,10 @@ echo "STRING GENERATION BUILD PHASE FINISHED"
 ```
 
 **Step 4**
+
 Add example `LanguageManager.swift` file to your project.
 **Step 5**
+
 Use it like `StringResources.myKey`
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
