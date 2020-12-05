@@ -1,5 +1,5 @@
 # Lookie
-Swift script that scan your localization file and generate domain base localization files
+Swift terminal project that scan your localization file and generate domain base localization files
 
 [![Swift Version][swift-image]][swift-url]
 
