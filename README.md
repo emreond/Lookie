@@ -15,3 +15,7 @@ It helps you to use your localization file in a much easier, safer and scalable 
 ## How Does It Work:
 
 It generate off the hook classes/codes from your language file everytime you build the project.
+
+
+[swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
+[swift-url]: https://swift.org/
