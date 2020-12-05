@@ -1,9 +1,9 @@
-# Bookie
+# Lookie
 Swift script that scan your localization file and generate domain base localization files
 
 [![Swift Version][swift-image]][swift-url]
 
-# Bookie
+# Lookie
 
 **Localization code generator** written for Swift in Swift.
 
@@ -23,6 +23,8 @@ It generate off the hook classes/codes from your language file everytime you bui
 Open Lookie.xcodeproj and add necessary domains to `domainsToFind` array depenging on your localization file.
 
 For example; `dashboard_my_title` generates `DashboardStringResources.swift` file. Every key you add starting with `dashboard` will be written inside `DashboardStringResources.swift` file. If you can't find any related domain it will be written in `StringResources.swift`
+
+Run and get a command line program called Lookie
 
 **Step 2**
 
