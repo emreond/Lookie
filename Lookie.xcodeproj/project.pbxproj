@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C80F6FF8257B96A1000A9545 /* Bookie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bookie; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80F6FF8257B96A1000A9545 /* Lookie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lookie; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80F6FFB257B96A1000A9545 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		C80F6FEF257B96A1000A9545 = {
 			isa = PBXGroup;
 			children = (
-				C80F6FFA257B96A1000A9545 /* Bookie */,
+				C80F6FFA257B96A1000A9545 /* Lookie */,
 				C80F6FF9257B96A1000A9545 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		C80F6FF9257B96A1000A9545 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C80F6FF8257B96A1000A9545 /* Bookie */,
+				C80F6FF8257B96A1000A9545 /* Lookie */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C80F6FFA257B96A1000A9545 /* Bookie */ = {
+		C80F6FFA257B96A1000A9545 /* Lookie */ = {
 			isa = PBXGroup;
 			children = (
 				C80F6FFB257B96A1000A9545 /* main.swift */,
 			);
-			path = Bookie;
+			path = Lookie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C80F6FF7257B96A1000A9545 /* Bookie */ = {
+		C80F6FF7257B96A1000A9545 /* Lookie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C80F6FFF257B96A1000A9545 /* Build configuration list for PBXNativeTarget "Bookie" */;
+			buildConfigurationList = C80F6FFF257B96A1000A9545 /* Build configuration list for PBXNativeTarget "Lookie" */;
 			buildPhases = (
 				C80F6FF4257B96A1000A9545 /* Sources */,
 				C80F6FF5257B96A1000A9545 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = Bookie;
+			name = Lookie;
 			productName = Bookie;
-			productReference = C80F6FF8257B96A1000A9545 /* Bookie */;
+			productReference = C80F6FF8257B96A1000A9545 /* Lookie */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C80F6FF3257B96A1000A9545 /* Build configuration list for PBXProject "Bookie" */;
+			buildConfigurationList = C80F6FF3257B96A1000A9545 /* Build configuration list for PBXProject "Lookie" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C80F6FF7257B96A1000A9545 /* Bookie */,
+				C80F6FF7257B96A1000A9545 /* Lookie */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C80F6FF3257B96A1000A9545 /* Build configuration list for PBXProject "Bookie" */ = {
+		C80F6FF3257B96A1000A9545 /* Build configuration list for PBXProject "Lookie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C80F6FFD257B96A1000A9545 /* Debug */,
@@ -275,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C80F6FFF257B96A1000A9545 /* Build configuration list for PBXNativeTarget "Bookie" */ = {
+		C80F6FFF257B96A1000A9545 /* Build configuration list for PBXNativeTarget "Lookie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C80F7000257B96A1000A9545 /* Debug */,
