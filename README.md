@@ -20,11 +20,10 @@ Open Lookie.xcodeproj and add necessary domains to `domainsToFind` array depengi
 
 For example; `dashboard_my_title` generates `DashboardStringResources.swift` file. Every key you add starting with `dashboard` will be written inside `DashboardStringResources.swift` file. If you can't find any related domain it will be written in `StringResources.swift`
 
-Run and get a command line program called Lookie
 
 **Step 2**
 
-Get product file called Laurine and paste it to your project folder
+Run and get product file called Lookie and paste it to your project folder
 
 **Step 3**
 
