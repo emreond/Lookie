@@ -15,11 +15,16 @@ func main() {
     guard CommandLine.argc >= 3 else { return }
     let langFilePath = CommandLine.arguments[1]
     outputDirectory = CommandLine.arguments[2]
+    print("Language File Generation Started")
+    print("Lang File Path: \(langFilePath)")
+    print("Output Directory: \(outputDirectory)")
     do {
         let data = try Data(contentsOf: URL(fileURLWithPath: langFilePath), options: .mappedIfSafe)
         let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
         if let jsonResult = jsonResult as? Dictionary<String, String> {
             writeSwiftFile(keysAndValues: jsonResult)
+        } else {
+            print("Wrong JSON Format")
         }
     } catch {
         print("Can't find the language file")
@@ -116,6 +121,7 @@ private func writeDomainToSwiftFile(domain: String, keysAndValues: Dictionary<St
     let url = URL(fileURLWithPath: filename)
     do {
         try output.write(to: url, atomically: true, encoding: String.Encoding.utf8)
+        print("Language File Generation Finished Without Any Error")
     } catch {
         print("Writing File Error")
         // failed to write file – bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
